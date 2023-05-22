@@ -6,31 +6,15 @@
 <p align="center">
 A simple to use python script to extract and organize all the highlights from 'My Clippings.txt' file.
 </p>
-<p align="center">
-  If you found this script helpful or appreciate my work, you can support me here:
-  <br><br>
-  <a href="https://www.producthunt.com/posts/kindle2notion?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-kindle2notion" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=295918&theme=light" alt="Kindle2Notion - Export your Kindle clippings to a Notion database. | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
-  <a href="https://www.buymeacoffee.com/jeffreyjacob" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 54px;" height="54"></a>
-</p>
 
-[![Downloads][downloads-shield]][downloads-url]
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
-
-- [Table of Contents](#table-of-contents)
 - [About The Project](#about-the-project)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation & Setup](#installation--setup)
 - [Usage](#usage)
-- [Roadmap](#roadmap)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
@@ -121,23 +105,18 @@ You may also avail help with the following command:
 > This code has been tested on a 4th Gen Kindle Paperwhite on both MacOS and Windows.
 
 
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/paperboi/Kindle2Notion/issues) for a list of proposed features (and known issues).
-
-
 
 <!-- CONTRIBUTING -->
 ## Contributing
+The people who contribute will be honored here.
 
-<!-- Contributions are what make the open source community such an amazing place to be learn, inspire, and create. -->
-Any contributions you make are **greatly appreciated**.
+<!-- Contributions. -->
+Would **love it** it if you contribute to make this project better.
 
 1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
+2. Create your Feature Branch (`git checkout -b feature/NewFeature`)
+3. Commit your Changes (`git commit -m 'Add some New Feature (describe it out)'`)
+4. Push to the Branch (`git push origin feature/NewFeature`)
 5. Open a Pull Request
 
 
@@ -145,28 +124,11 @@ Any contributions you make are **greatly appreciated**.
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See [LICENSE][license-url] for more information.
+Distributed under the MIT License. See [LICENSE](https://github.com/mohammadZkhan/KindleClippingsExtractor/blob/main/LICENSE) for more information.
 
 
 
 <!-- CONTACT -->
 ## Contact
 
-Jeffrey Jacob ([Twitter](https://twitter.com/jeffreysamjacob) | [Email](mailto:jeffreysamjacob@gmail.com) | [LinkedIn](https://www.linkedin.com/in/jeffreysamjacob/))
-
-
-[downloads-shield]: https://pepy.tech/badge/kindle2notion
-[downloads-url]: https://pepy.tech/project/kindle2notion
-[contributors-shield]: https://img.shields.io/github/contributors/paperboi/Kindle2Notion.svg?style=flat-square
-[contributors-url]: https://github.com/paperboi/Kindle2Notion/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/paperboi/Kindle2Notion.svg?style=flat-square
-[forks-url]: https://github.com/paperboi/Kindle2Notion/network/members
-[stars-shield]: https://img.shields.io/github/stars/paperboi/Kindle2Notion.svg?style=flat-square
-[stars-url]: https://github.com/paperboi/Kindle2Notion/stargazers
-[issues-shield]: https://img.shields.io/github/issues/paperboi/Kindle2Notion.svg?style=flat-square
-[issues-url]: https://github.com/paperboi/Kindle2Notion/issues
-[license-shield]: https://img.shields.io/github/license/paperboi/Kindle2Notion.svg?style=flat-square
-[license-url]: https://github.com/paperboi/kindle2notion/blob/master/LICENSE
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/jeffreysamjacob/
-[product-demo]: https://i.imgur.com/IlDmEOy.gif
+Mohammad Zainullah KHan ([My Website](https://www.zainullah.com) | [Email](mailto:mohammad.zainullah.khan@gmail.com) | [LinkedIn](https://www.linkedin.com/in/mohammad-zainullah-khan/))
