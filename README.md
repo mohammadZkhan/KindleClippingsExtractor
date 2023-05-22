@@ -66,6 +66,11 @@ This program was made to be easy to use. Follow the these simple steps:
    ```
 \
 \
+
+<p align="center">
+  <img width="500" src="https://github.com/mohammadZkhan/KindleClippingsExtractor/blob/main/Media/Highlight%20files.gif">
+</p>
+
 **You are all done. Simple, right?** <br>
 If it was a success, you will see the following message:<br>
    > If you are seeing this message, everything has been done SUCCESSFULLY
