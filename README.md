@@ -1,19 +1,10 @@
-# KindleClippingsExtractor
-A simple to use python script to extract and organize all the highlights from 'My Clippings.txt' file.
-
-
-
 <!-- PROJECT OVERVIEW -->
 <p align="center">
-  <img width="500" src="https://i.imgur.com/mJOjtvo.png">
+  <img width="500" src="https://github.com/mohammadZkhan/KindleClippingsExtractor/blob/main/Media/Header.png?raw=true">
 </p>
-<!-- <h1 align="center">Kindle2Notion</h1> -->
+<!-- <h1 align="center">KindleClippingsExtractor</h1> -->
 <p align="center">
-  A program to copy all your Kindle highlights and notes to a page in Notion. 
-  <br />
-  <a href="https://github.com/paperboi/Kindle2Notion">Explore the docs</a>
-  ·
-  <a href="https://github.com/paperboi/Kindle2Notion/issues">File issues and feature requests here</a>
+A simple to use python script to extract and organize all the highlights from 'My Clippings.txt' file.
 </p>
 <p align="center">
   If you found this script helpful or appreciate my work, you can support me here:
