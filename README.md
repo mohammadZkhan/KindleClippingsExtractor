@@ -64,11 +64,9 @@ This program was made to be easy to use. Follow the these simple steps:
    ```
       $ ./kinhigh.py
    ```
-\
-\
 
 <p align="center">
-  <img width="500" src="https://github.com/mohammadZkhan/KindleClippingsExtractor/blob/main/Media/Highlight%20files.gif">
+  <img width="800" src="https://github.com/mohammadZkhan/KindleClippingsExtractor/blob/main/Media/Highlight%20files.gif">
 </p>
 
 **You are all done. Simple, right?** <br>
