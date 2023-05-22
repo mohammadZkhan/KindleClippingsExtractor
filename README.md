@@ -66,14 +66,14 @@ This program was made to be easy to use. Follow the these simple steps:
    ```
 \
 \
-**You are all done. Simple, right?**\
-If it was a success, you will see the following message:\
+**You are all done. Simple, right?** <br>
+If it was a success, you will see the following message:<br>
    > If you are seeing this message, everything has been done SUCCESSFULLY
 
- Before this message, you will also see:\
- (a) A message confirming that `My Clippings.txt` was found inside the directory (folder). The message will be `My clippings.txt' file has been loaded...`
- (b) The list of all the books that have been found within your `My Clippings.txt` file. This will include any book on your kindle for which you have done atleast one highlight.
- (c) The list of books for which highlights have been extracted and sorted into individual `.txt` files.
+ Before this message, you will also see: <br>
+   a. A message confirming that `My Clippings.txt` was found inside the directory (folder). The message will be `My clippings.txt' file has been loaded...`<br>
+   b. The list of all the books that have been found within your `My Clippings.txt` file. This will include any book on your kindle for which you have done atleast one highlight.<br>
+   c. The list of books for which highlights have been extracted and sorted into individual `.txt` files.<br>
 
  You will find the extracted highlights in a newly created folder `KindleBooks` within the same directory.
 
