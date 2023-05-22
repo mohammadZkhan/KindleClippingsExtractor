@@ -108,7 +108,7 @@ You may also avail help with the following command:
 
 <!-- CONTRIBUTING -->
 ## Contributing
-The people who contribute will be honored here.
+*The people who contribute will be honored here.*
 
 <!-- Contributions. -->
 Would **love it** it if you contribute to make this project better.
