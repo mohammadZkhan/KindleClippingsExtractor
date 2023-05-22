@@ -13,8 +13,8 @@ A simple to use python script to extract and organize all the highlights from 'M
 - [About The Project](#about-the-project)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
-  - [Installation & Setup](#installation--setup)
-- [Usage](#usage)
+   - [Usage](#usage)
+   - [Notes](#notes)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
@@ -42,7 +42,7 @@ PS: I use these extracts to share my highlights with the world in my [digital li
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get this all setup and running follow these simple steps:
+This program was made to be easy to use. Follow the these simple steps:
 
 ### Prerequisites
 
@@ -50,9 +50,9 @@ To get this all setup and running follow these simple steps:
 * Python 3 on your system to run the code.
 
 <!-- USAGE EXAMPLES -->
-## Usage
+### Usage
 
-1. Clone this repository or simply download the files as .zip
+1. Clone this repository or simply download the files as `.zip`
 
 2. Plug in your Kindle device to your PC. Navigate to the `documents` folder on your Kindle and copy `My Clippings.txt` file to the directory where you downloaded this repo (it must be in the same folder).
 
@@ -64,15 +64,23 @@ To get this all setup and running follow these simple steps:
    ```
       $ ./kinhigh.py
    ```
-**You are all done. Simple, right?**
-   If it was a success, you will see the following message:
-    ```
-   If you are seeing this message, everything has been done SUCCESSFULLY
-    ```
-> **NOTE**
-> This code has been tested on a 4th Gen Kindle Paperwhite on both MacOS and Windows.
+\
+\
+**You are all done. Simple, right?**\
+If it was a success, you will see the following message:\
+   > If you are seeing this message, everything has been done SUCCESSFULLY
 
+ Before this message, you will also see:\
+ (a) A message confirming that `My Clippings.txt` was found inside the directory (folder). The message will be `My clippings.txt' file has been loaded...`
+ (b) The list of all the books that have been found within your `My Clippings.txt` file. This will include any book on your kindle for which you have done atleast one highlight.
+ (c) The list of books for which highlights have been extracted and sorted into individual `.txt` files.
 
+ You will find the extracted highlights in a newly created folder `KindleBooks` within the same directory.
+
+### Notes
+- To avoid books which just have a few highlights from having their own `.txt` file, there is a variable `minHighlights` which is set at `2` by default. This means that any book which has `2` or more highlights will have its own `.txt` file generated. You are free to change this value to whatever you choose to.
+- Sometimes when highlighting on Kindle, one isn't able to highlight the required text accurately. So, one deletes (undo) it and highlights again. However, within the `My Clippings.txt` file, it doesn't get deleted or overwritten. The good news is that this program avoids these duplicate highlights from appearing in the final result.
+- You can run this program again and again as you read more books and your `My Clippings.txt` file gets updated. It will create new files for each new book. 
 
 <!-- CONTRIBUTING -->
 ## Contributing
