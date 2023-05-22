@@ -65,9 +65,6 @@ This program was made to be easy to use. Follow the these simple steps:
       $ ./kinhigh.py
    ```
 
-<p align="center">
-  <img width="800" src="https://github.com/mohammadZkhan/KindleClippingsExtractor/blob/main/Media/Highlight%20files.gif">
-</p>
 
 **You are all done. Simple, right?** <br>
 If it was a success, you will see the following message:<br>
@@ -80,6 +77,9 @@ If it was a success, you will see the following message:<br>
    (c) The list of books for which highlights have been extracted and sorted into individual `.txt` files.<br>
 
  You will find the extracted highlights in a newly created folder `KindleBooks` within the same directory.
+<p align="center">
+  <img width="700" src="https://github.com/mohammadZkhan/KindleClippingsExtractor/blob/main/Media/Highlight%20files.gif">
+</p>
 
 ### Notes
 - To avoid books which just have a few highlights from having their own `.txt` file, there is a variable `minHighlights` which is set at `2` by default. This means that any book which has `2` or more highlights will have its own `.txt` file generated. You are free to change this value to whatever you choose to.
