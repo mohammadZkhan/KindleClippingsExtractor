@@ -42,65 +42,33 @@ PS: I use these extracts to share my highlights with the world in my [digital li
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get a local copy up and running follow these simple steps:
+To get this all setup and running follow these simple steps:
 
 ### Prerequisites
 
 * A Kindle device.
-* A Notion account to store your links.
 * Python 3 on your system to run the code.
-
-### Installation & Setup
-
-> **NOTE** 
-> As of 10-07-2022, the latest update to this package relies on the offical Notion API for sending API requests. This requires you to create an integration token from [here](https://www.notion.so/my-integrations). For old users, you'd have to switch to this method as well since `notion-py` isn't being maintained anymore.
- 
-1. Install the library.
-    ```sh
-    pip install kindle2notion
-    ```
-2. Create an integration on Notion.
-      1. Duplicate this [database template](https://kindle2notion.notion.site/6d26062e3bb04dd89b988806978c1fe7?v=0d394a8162cc481280966b35a37465c2) to your the workspace you want to use for storing your Kindle clippings.
-      2. Open _Settings & Members_ from the left navigation bar.
-      3. Select the _Integrations_ option listed under _Workspaces_ in the settings modal.
-      4. Click on _Develop your own integrations_ to redirect to the integrations page.
-      5. On the integrations page, select the _New integration_ option and enter the name of the integration and the workspace you want to use it with. Hit submit and your internal integration token will be generated.
-3. Go back to your database page and click on the _Share_ button on the top right corner. Use the selector to find your integration by its name and then click _Invite_. Your integration now has the requested permissions on the new database. 
-
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-1. Plug in your Kindle device to your PC.
-    
-2. You need the following three arguments in hand before running the code:
-   1. Take `your_notion_auth_token` from the secret key bearer token provided.
-   2. Find `your_notion_database_id` from the URL of the database you have copied to your workspace. For reference,
-      ```
-      https://www.notion.so/myworkspace/a8aec43384f447ed84390e8e42c2e089?v=...
-                                        |--------- Database ID --------|
-      ```
-   3. `your_kindle_clippings_file` is the path to your `My Clippings File.txt` on your Kindle.
+1. Clone this repository or simply download the files as .zip
 
-3. Additionally, you may modify some default parameters of the command-line with the following options of the CLI:
-   - ```--enable_highlight_date```  Set to False if you don't want to see the "Date Added" information in Notion.
-   - ```--enable_book_cover```      Set to False if you don't want to store the book cover in Notion.
-    
-4. Export your Kindle highlights and notes to Notion!
-   - On MacOS and UNIX,
-   ```sh
-   kindle2notion 'your_notion_auth_token' 'your_notion_table_id' 'your_kindle_clippings_file'
-   ```
-   - On Windows
-   ```sh
-   python -m kindle2notion 'your_notion_auth_token' 'your_notion_table_id' 'your_kindle_clippings_file'
-   ```
-You may also avail help with the following command:
-   ```sh
-   kindle2notion --help
-   python -m kindle2notion --help
-   ```
+2. Plug in your Kindle device to your PC. Navigate to the `documents` folder on your Kindle and copy `My Clippings.txt` file to the directory where you downloaded this repo (it must be in the same folder).
 
+3. Execute `kinhigh.py` :
+   ```
+      $ python kinhigh.py
+   ```
+   or
+   ```
+      $ ./kinhigh.py
+   ```
+**You are all done. Simple, right?**
+   If it was a success, you will see the following message:
+    ```
+   If you are seeing this message, everything has been done SUCCESSFULLY
+    ```
 > **NOTE**
 > This code has been tested on a 4th Gen Kindle Paperwhite on both MacOS and Windows.
 
@@ -111,7 +79,7 @@ You may also avail help with the following command:
 *The people who contribute will be honored here.*
 
 <!-- Contributions. -->
-Would **love it** it if you contribute to make this project better.
+Would **love it** if you contribute to make this project better.
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/NewFeature`)
@@ -131,4 +99,4 @@ Distributed under the MIT License. See [LICENSE](https://github.com/mohammadZkha
 <!-- CONTACT -->
 ## Contact
 
-Mohammad Zainullah KHan ([My Website](https://www.zainullah.com) | [Email](mailto:mohammad.zainullah.khan@gmail.com) | [LinkedIn](https://www.linkedin.com/in/mohammad-zainullah-khan/))
+Mohammad Zainullah Khan ([My Website](https://www.zainullah.com) | [Email](mailto:mohammad.zainullah.khan@gmail.com) | [LinkedIn](https://www.linkedin.com/in/mohammad-zainullah-khan/))
