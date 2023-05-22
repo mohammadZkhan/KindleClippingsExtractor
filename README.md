@@ -24,23 +24,23 @@ A simple to use python script to extract and organize all the highlights from 'M
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Kindle2Notion Demo][product-demo]
+This is probably the simplest to use python script which allows you to extract all your clippings (highlights) from the 'My Clippings.txt' file. 
 
-A Python package to export all the clippings from your Kindle device to a page in Notion. Run this script whenever you plug in your Kindle device to your PC.
+It automatically extracts the highlights, sorts and organizes them into individual files (one per book) and gives you nice looking '.txt' files which you can then use as you wish. The best part is, you can extract highlights not only from the books that you have purchased from Amazon but from all the documents that you have upload and highlighted on your kindle.
 
-A key inspiration behind this project was the notes saving feature on Google Play Books, which automatically syncs all your highlights from a book hosted on the service to a Google Doc in real time. I wanted a similar feature for my Kindle and this project is one step towards a solution for this problem.
+<p align="center">
+  <img width="500" src="https://github.com/mohammadZkhan/KindleClippingsExtractor/blob/main/Media/Kindle_Book_List.png">
+</p>
 
-**Intended for**
-- Avid readers who would want to browse through their prior reads and highlights anytime anywhere.
-- For those who like to take notes alongside their highlights.
+PS: I use these extracts to share my highlights with the world in my [digital library](https://www.notion.so/zainkhan/ab388ee65fb140ad967a5013a9768354?v=afc3169f9e9e49b59d2357bd1a46aa54). You can do the same or simply use them to review what resonated with you while you were reading those books. 
 
+
+**Who is this for?**
+- Readers who would want to browse through their highlights to review the crux of the books
+- You!
 
 <!-- GETTING STARTED -->
 ## Getting Started
-
-
-> **NOTE**
-> Need a step-by-step guide to setting this package up? Click [here](https://kindle2notion.notion.site/Kindle2Notion-8a9683c9b19546c3b1cf42a68aceebee) for the full guide. 
 
 To get a local copy up and running follow these simple steps:
 
