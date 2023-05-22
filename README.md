@@ -70,10 +70,11 @@ This program was made to be easy to use. Follow the these simple steps:
 If it was a success, you will see the following message:<br>
    > If you are seeing this message, everything has been done SUCCESSFULLY
 
- Before this message, you will also see: <br>
-   a. A message confirming that `My Clippings.txt` was found inside the directory (folder). The message will be `My clippings.txt' file has been loaded...`<br>
-   b. The list of all the books that have been found within your `My Clippings.txt` file. This will include any book on your kindle for which you have done atleast one highlight.<br>
-   c. The list of books for which highlights have been extracted and sorted into individual `.txt` files.<br>
+
+ *Before this message, you will also see:* <br>
+   (a) A message confirming that `My Clippings.txt` was found inside the directory (folder). The message will be `My clippings.txt' file has been loaded...`<br>
+   (b) The list of all the books that have been found within your `My Clippings.txt` file. This will include any book on your kindle for which you have done atleast one highlight.<br>
+   (c) The list of books for which highlights have been extracted and sorted into individual `.txt` files.<br>
 
  You will find the extracted highlights in a newly created folder `KindleBooks` within the same directory.
 
@@ -87,7 +88,7 @@ If it was a success, you will see the following message:<br>
 *The people who contribute will be honored here.*
 
 <!-- Contributions. -->
-Would **love it** if you contribute to make this project better.
+Would **love it** if you can contribute to make this project better.
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/NewFeature`)
@@ -98,7 +99,7 @@ Would **love it** if you contribute to make this project better.
 
 
 <!-- LICENSE -->
-## License
+## Licenses
 
 Distributed under the MIT License. See [LICENSE](https://github.com/mohammadZkhan/KindleClippingsExtractor/blob/main/LICENSE) for more information.
 
